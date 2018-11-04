@@ -1,0 +1,72 @@
+[
+	{
+		"id":"nissan-skyline-GTR",
+		"imageUrl":"img/cars/nissan-skyline-GTR.jpg",
+		"model":"Skyline GTR",
+		"brand":"Nissan",
+		"age":3
+	},
+	{
+		"id":"subaru-wrx",
+		"imageUrl":"img/cars/subaru-wrx.jpg",
+		"model":"WRX",
+		"brand":"Subaru",
+		"age":7
+	},
+	{
+		"id":"mazda-rx8",
+		"imageUrl":"img/cars/mazda-rx8.jpg",
+		"model":"RX8",
+		"brand":"Mazda",
+		"age":6
+	},
+	{
+		"id":"toyota-supra",
+		"imageUrl":"img/cars/toyota-supra.jpg",
+		"model":"Supra",
+		"brand":"Toyota",
+		"age":4
+	},
+	{
+		"id":"nissan-350z",
+		"imageUrl":"img/cars/nissan-350z.jpg",
+		"model":"350Z",
+		"brand":"Nissan",
+		"age":9
+	},
+	{
+		"id":"mercedes-c230-kompressor",
+		"imageUrl":"img/cars/mercedes-c230-kompressor.jpg",
+		"model":"C230 Kompressor",
+		"brand":"Mercedes",
+		"age":5
+	},
+	{
+		"id":"bmw-e36-m3",
+		"imageUrl":"img/cars/bmw-e36-m3.jpg",
+		"model":"E36 M3",
+		"brand":"BMW",
+		"age":8
+	},
+	{
+		"id":"mazda-mx5-nb",
+		"imageUrl":"img/cars/mazda-mx5-nb.jpg",
+		"model":"MX-5 NB",
+		"brand":"Mazda",
+		"age":11
+	},
+	{
+		"id":"nissan-240sx-S14",
+		"imageUrl":"img/cars/nissan-240sx-S14.jpg",
+		"model":"240sx S14",
+		"brand":"Nissan",
+		"age":10
+	},
+	{
+		"id":"dodge-viper",
+		"imageUrl":"img/cars/dodge-viper.jpg",
+		"model":"Viper",
+		"brand":"Dodge",
+		"age":12
+	}
+]
