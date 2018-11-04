@@ -1,0 +1,38 @@
+Search <input ng-model='$ctrl.query'/>
+Sort by <select ng-model='$ctrl.orderProp'>
+			<option value='brand'>Brand name</option>
+			<option value='model'>Model name</option>
+			<option value='age'>Newest</option>
+			<option value='-age'>Oldest</option>
+		</select>
+
+<div class="col-md-1">
+
+</div>
+<!--<p>
+	<table>
+		<tr>
+			<td>{{$ctrl.title.m}}</td>
+			<td>{{$ctrl.title.b}}</td>
+		</tr>
+		<tr ng-repeat='car in $ctrl.cars | filter:$ctrl.query | orderBy:$ctrl.orderProp'>
+			<td>{{car.model}}</td>
+			<td>{{car.brand}}</td>
+		</tr>
+	</table>
+</p>-->
+<div class="col-md-10">
+	<p>
+		<ul class='cars'>
+				<li ng-repeat='car in $ctrl.cars | filter:$ctrl.query | orderBy:$ctrl.orderProp' class='thumbnail'>
+					<a href='#/cars/{{car.id}}' class='thumb'>
+						<img ng-src="{{car.imageUrl}}" alt='{{car.brand + " " + car.model}}'/>
+					</a>
+					<a href='#/cars/{{car.id}}'>{{car.model}}</a>
+					<p>{{car.brand}}</p>
+				</li>
+		</ul>
+	</p>
+</div>
+
+<div class="col-md-1">
