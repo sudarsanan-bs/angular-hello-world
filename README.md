@@ -7,7 +7,7 @@ All images used belong to original copyright owners, used here only for demonstr
 Run instructions
 ================
 
-Open index.html in a browser.
+Open index.html in a web browser.
 
 Sample output
 =============
